@@ -1,0 +1,19 @@
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+
+#spring:
+#  datasource:
+#    druid:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      url: jdbc:mysql://localhost:3306/kong?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+#      username: root
+#      password: 123456
+
+#在application.properties/或者application.yml文件中没有添加数据库配置信息.
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/kong?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
